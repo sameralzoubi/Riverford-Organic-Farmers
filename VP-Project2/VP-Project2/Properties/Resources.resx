@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="apples-262x262-85f72fae0670bc8d329a85a6f6c169f6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\apples-262x262-85f72fae0670bc8d329a85a6f6c169f6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="104-3a54bcbb5cf4a3d332bb8fa01e984580" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\104-3a54bcbb5cf4a3d332bb8fa01e984580.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logged-out-home-hero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logged-out-home-hero.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tomatoes-262x262-05e49e6885688ff74235aaa1fd9a744d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tomatoes-262x262-05e49e6885688ff74235aaa1fd9a744d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="apricots-400g-262x262-6277ba3faa710f1f85afbc6663113be3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\apricots-400g-262x262-6277ba3faa710f1f85afbc6663113be3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="262x262-d5d1c4c3c4cf07a3ed39916f98f4c1e2 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\262x262-d5d1c4c3c4cf07a3ed39916f98f4c1e2 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2175-c73f2daeeeeda02d037799184aa578ad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2175-c73f2daeeeeda02d037799184aa578ad.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1886-ada4ef40cc95171acb93a9604e9a53ac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1886-ada4ef40cc95171acb93a9604e9a53ac.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1325-4964b3c064941df4cd4ca33d6273755b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1325-4964b3c064941df4cd4ca33d6273755b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2156-b31f49a1955f020817991a39cb2abc0a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2156-b31f49a1955f020817991a39cb2abc0a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2252-369fdb9b25f7c27ead252a2bab2525e3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2252-369fdb9b25f7c27ead252a2bab2525e3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salad-bag-1500x1000-c9d5ff2e6f3020cb076a446df29268a4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\salad-bag-1500x1000-c9d5ff2e6f3020cb076a446df29268a4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1330-c9e3c2c69b56b5cb0e5185284d65fbcc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1330-c9e3c2c69b56b5cb0e5185284d65fbcc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2253-33c3bd09286ead7de261225c8f5a3012" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2253-33c3bd09286ead7de261225c8f5a3012.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2249-410de2b82213d5354b97a0d630212600" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2249-410de2b82213d5354b97a0d630212600.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="green-girl-signapore-online-grocers-organic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\green-girl-signapore-online-grocers-organic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="331-e29b5cb10cbddd994bb1e848efb2eba1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\331-e29b5cb10cbddd994bb1e848efb2eba1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1891-13fba827e786720473efdd744e72870a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1891-13fba827e786720473efdd744e72870a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Riverford_Logo_blackt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Riverford_Logo_blackt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riverford-organic-farmers-office" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riverford-organic-farmers-office.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="262x262-932083c8e817ab4940a48caa184812d6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\262x262-932083c8e817ab4940a48caa184812d6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cherries-262x262-4d82a790017e38609f9f226b0791414a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cherries-262x262-4d82a790017e38609f9f226b0791414a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2821-91ccdb306b2074a48781c7419f8bcd29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2821-91ccdb306b2074a48781c7419f8bcd29.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background-food-fruits-vegetables-collection-fruit-vegetable-portrait-format-healthy-eating-diet-apples-oranges-tomatoes-190446153" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background-food-fruits-vegetables-collection-fruit-vegetable-portrait-format-healthy-eating-diet-apples-oranges-tomatoes-190446153.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="account-269-866236" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\account-269-866236.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
